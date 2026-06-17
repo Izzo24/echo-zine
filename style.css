@@ -260,7 +260,11 @@ a:hover{color:var(--red);}
   font-size:13px;color:var(--mustard);margin:0 0 14px;}
 .footer-grid a{color:var(--paper);display:block;padding:5px 0;font-size:15px;}
 .footer-grid a:hover{color:var(--red);}
-.footer-brand .zh{font-family:var(--font-head);font-weight:900;font-size:24px;}
+.footer-logo{display:inline-flex;align-items:center;gap:12px;margin-bottom:14px;}
+.footer-logo svg{height:44px;width:auto;display:block;}
+.footer-logo:hover{opacity:.88;}
+.footer-logo .zh{color:var(--paper);}
+.footer-logo .en{color:var(--mustard);}
 .footer-brand p{color:#cdbfae;font-size:14px;max-width:30ch;}
 .footer-bottom{border-top:1px solid rgba(243,232,214,.18);text-align:center;
   font-family:var(--font-label);text-transform:uppercase;letter-spacing:.14em;font-size:12px;
